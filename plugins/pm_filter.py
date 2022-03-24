@@ -509,20 +509,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
         )
         await query.message.edit_text(
-            text=""" 
-`;-.          ___,
-  .`\_...._/.-"`
-    \        /      ,
-    /()   () \    .' `-._
-   |)  .    ()\  /   _.'
-   \  -'-     ,; '. <
-    ;.     ,;|   > \
-   / ,    / ,  |.-'.-'
-  (_/    (_/ ,;|.<`
-    \    ,     ;-`
-     >   \    /
-    (_,-'`> .'
-          (_,' """
+            text="""
+       ,___          .-;'
+       `"-.`\_...._/`.`
+    ,      \        /
+ .-' ',    / ()   ()\
+`'._   \  /()    .  (|
+    > .' ;,     -'-  /
+   / <   |;,     __.;
+   '-.'-.|  , \    , \
+      `>.|;, \_)    \_)
+       `-;     ,    /
+          \    /   <
+           '. <`'-,_)
+        jgs '._)"""
         )
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -549,7 +549,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text="""
+       \:.             .:/
+        \``._________.''/ 
+         \             / 
+ .--.--, / .':.   .':. \
+/__:  /  | '::' . '::' |
+   / /   |`.   ._.   .'|
+  / /    |.'         '.|
+ /___-_-,|.\  \   /  /.|
+      // |''\.;   ;,/ '|
+      `==|:=         =:|
+         `.          .'
+l42        :-._____.-:
+          `''       `''"""
         )
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
