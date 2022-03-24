@@ -509,7 +509,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text=""" 
+`;-.          ___,
+  .`\_...._/.-"`
+    \        /      ,
+    /()   () \    .' `-._
+   |)  .    ()\  /   _.'
+   \  -'-     ,; '. <
+    ;.     ,;|   > \
+   / ,    / ,  |.-'.-'
+  (_/    (_/ ,;|.<`
+    \    ,     ;-`
+     >   \    /
+    (_,-'`> .'
+          (_,' """
         )
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
