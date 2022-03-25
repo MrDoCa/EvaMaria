@@ -522,8 +522,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('help')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝘼𝙙𝙢𝙞𝙣', callback_data='admin')
-            ]]
+            InlineKeyboardButton("Doesn't Have A Group ?", callback_data='notgroup')
+            ],[
+            InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
+            ],[
+            InlineKeyboardButton('සින්හලෙන්', callback_data='sinhala'),
+            InlineKeyboardButton('Back', callback_data='pikachu')
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text="""<b><i>Opening Help .</i></b>"""
@@ -583,9 +588,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 █── ▀ ▀─▀▀ ▀─▀ ─▀ ▀ ▀"""
         )
         await query.message.edit_text(
-            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █ █ █─█
-█▄█ █ █▀▄─ █▀█ █─ █▀█ █─█
-█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀ ▀  ▀"""
+            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█ █   █
+█▄█ █ █▀▄─ █▀█ █─ █▀█ █   █
+█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀ ▀▀▀"""
         )
         await query.message.edit_text(
             text=script.PIKACHU_TXT,
@@ -631,9 +636,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 █── ▀ ▀─▀▀ ▀─▀ ─▀ ▀ ▀"""
         )
         await query.message.edit_text(
-            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █ █ █─█
-█▄█ █ █▀▄─ █▀█ █─ █▀█ █─█
-█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀ ▀  ▀"""
+            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█ █   █
+█▄█ █ █▀▄─ █▀█ █─ █▀█ █   █
+█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀ ▀▀▀"""
         )
         await query.message.edit_text(
             text=script.PIKACHUINFO_TXT,
