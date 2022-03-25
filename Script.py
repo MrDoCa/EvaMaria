@@ -103,6 +103,8 @@ This module only works for my admins
     SINHALA_TXT = """sinhalen pago"""
     NOTGROUP_TXT = """no groups for help?"""
     PIKACHUINFO_TXT = """this is pikachu info"""
+    MERLINREPLY_TXT = """still dreaming hah!"""
+    MERLIN_TXT = """wann adownload merlin S06"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
