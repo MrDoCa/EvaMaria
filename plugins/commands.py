@@ -526,7 +526,7 @@ async def aboutrs(client, message):
     
 @Client.on_message(filters.command("notgroup"))
 async def aboutrs(client, message):
-    await message.reply_text(text=Script.NOGROUP_TXT.format(temp.B_NAME), disable_web_page_preview=True)
+    await message.reply_text(text=Script.NOTGROUP_TXT.format(temp.B_NAME), disable_web_page_preview=True)
 
 @Client.on_message(filters.command("sinhala"))
 async def aboutrs(client, message):
@@ -534,8 +534,8 @@ async def aboutrs(client, message):
     
 @Client.on_message(filters.command("infopikachu"))
 async def aboutrs(client, message):
-    await message.reply_text(text=Script.NOGROUP_TXT.format(temp.B_NAME), disable_web_page_preview=True)
+    await message.reply_text(text=Script.PIKACHUINFO_TXT.format(temp.B_NAME), disable_web_page_preview=True)
 
 @Client.on_message(filters.command("more"))
 async def aboutrs(client, message):
-    await message.reply_text(text=Script.NOGROUP_TXT.format(temp.B_NAME), disable_web_page_preview=True)
+    await message.reply_text(text=Script.MORE_TXT.format(temp.B_NAME), disable_web_page_preview=True)
