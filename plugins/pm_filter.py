@@ -650,7 +650,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="""<b>About Pikachu</b>
             
-<b><i>Opening...</i></b>"""
+<b><i>Opening..</i></b>"""
         )
         await query.message.edit_text(
             text="""<b> (╯°□°)╯︵◓  ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
