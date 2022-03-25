@@ -842,6 +842,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "merlin":
+        buttons = [[
+            InlineKeyboardButton('Close', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.MERLINREPLY_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "settingstext":
         buttons = [[
             InlineKeyboardButton('« 𝘽𝙖𝙘𝙠', callback_data='help')
