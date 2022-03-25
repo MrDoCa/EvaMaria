@@ -611,7 +611,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="""<b>About Pikachu</b>
             
 <b><i>Loading.</i></b>"""
-        )await query.message.edit_text(
+        )
+        await query.message.edit_text(
             text="""<b>About Pikachu</b>
             
 <b><i>Loading..</i></b>"""
