@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('Movies', f"⚠️ Hey,Search Your Own File, Don't Click Others Results 😬", show_alert=True),
+                InlineKeyboardButton('Download NOW ! ', callback_data='merlin'),
                 InlineKeyboardButton('Series', url="https://t.me/infinitylk")
             ]
             ]
@@ -539,3 +539,7 @@ async def aboutrs(client, message):
 @Client.on_message(filters.command("more"))
 async def aboutrs(client, message):
     await message.reply_text(text=Script.MORE_TXT.format(temp.B_NAME), disable_web_page_preview=True)
+
+@Client.on_message(filters.command("merlin"))
+async def aboutrs(client, message):
+    await message.reply_text(text=Script.MERLINREPLY_TXT.format(temp.B_NAME), disable_web_page_preview=True)
