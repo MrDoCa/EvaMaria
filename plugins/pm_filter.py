@@ -656,19 +656,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="""<b> (╯°□°)╯︵◓  ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
         )
         await query.message.edit_text(
-            text="""<b> (╯°□°)╯︵ ◓   ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
+            text="""<b> (╯°□°)╯  ◓   ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
         )
         await query.message.edit_text(
-            text="""<b> (╯°□°)╯︵  ◓   ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
+            text="""<b> (╯°□°)╯   ◓   ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
         )
         await query.message.edit_text(
-            text="""<b> (╯°□°)╯︵   ◓  ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
+            text="""<b> (╯°□°)╯    ◓  ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
         )
         await query.message.edit_text(
-            text="""<b> (╯°□°)╯︵    ◓  ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
+            text="""<b> (╯°□°)╯     ◓  ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
         )
         await query.message.edit_text(
-            text="""<b> (∩ ͡° ͜ʖ ͡°)⊃━          ◓</b>"""
+            text="""<b> (╯°□°)╯      ◓ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
+        )
+        await query.message.edit_text(
+            text="""<b> (╯°-°)╯      ◓</b>"""
+        )
+        await query.message.edit_text(
+            text="""<b> (╯° ͜ʖ °)╯    ◓</b>"""
         )
         await query.message.edit_text(
             text="""█▀█
@@ -699,11 +705,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█
 █▄█ █ █▀▄─ █▀█ █─ █▀█
 █── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀"""
-        )
-        await query.message.edit_text(
-            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█ █   █
-█▄█ █ █▀▄─ █▀█ █─ █▀█ █   █
-█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀ ▀▀▀"""
         )
         await query.message.edit_text(
             text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█ █   █
