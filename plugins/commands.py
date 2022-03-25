@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('Movies', url='https://t.me/infinitylk'),
+                InlineKeyboardButton('Movies', f"⚠️ Hey,Search Your Own File, Don't Click Others Results 😬", show_alert=True),
                 InlineKeyboardButton('Series', url="https://t.me/infinitylk")
             ]
             ]
