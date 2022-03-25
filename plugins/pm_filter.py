@@ -509,20 +509,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
         )
         await query.message.edit_text(
-            text="""
-       ,___          .-;'
-       `"-.`\_...._/`.`
-    ,      \        /
- .-' ',    / ()   ()\
-`'._   \  /()    .  (|
-    > .' ;,     -'-  /
-   / <   |;,     __.;
-   '-.'-.|  , \    , \
-      `>.|;, \_)    \_)
-       `-;     ,    /
-          \    /   <
-           '. <`'-,_)
-        jgs '._)"""
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
         )
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -549,20 +536,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
         )
         await query.message.edit_text(
-            text="""
-       \:.             .:/
-        \``._________.''/ 
-         \             / 
- .--.--, / .':.   .':. \
-/__:  /  | '::' . '::' |
-   / /   |`.   ._.   .'|
-  / /    |.'         '.|
- /___-_-,|.\  \   /  /.|
-      // |''\.;   ;,/ '|
-      `==|:=         =:|
-         `.          .'
-l42        :-._____.-:
-          `''       `''"""
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
         )
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -579,19 +553,34 @@ l42        :-._____.-:
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="""
+/\︿╱\
+\0_ 0 /╱\╱ 
+\▁︹_/ """
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="""
+█▀█ ▀  /\︿╱\
+█▄█ █  \0_ 0 /╱\╱ 
+█── ▀  \▁︹_/ """
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
+            text="""
+█▀█ ▀ █─▄▀ ▄▀▄  /\︿╱\
+█▄█ █ █▀▄─ █▀█  \0_ 0 /╱\╱ 
+█── ▀ ▀─▀▀ ▀─▀  \▁︹_/ """
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
+            text="""
+█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █──  /\︿╱\
+█▄█ █ █▀▄─ █▀█ █─ █▀▄  \0_ 0 /╱\╱ 
+█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀  \▁︹_/ """
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text="""
+█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █── █─█  /\︿╱\
+█▄█ █ █▀▄─ █▀█ █─ █▀▄ █─█  \0_ 0 /╱\╱
+█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀ ─▀   \▁︹_/ """
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
