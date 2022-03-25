@@ -583,9 +583,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 █── ▀ ▀─▀▀ ▀─▀ ─▀"""
         )
         await query.message.edit_text(
-            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █ █
+            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█
 █▄█ █ █▀▄─ █▀█ █─ █▀█
-█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀ ▀"""
+█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀"""
         )
         await query.message.edit_text(
             text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█ █   █
@@ -603,7 +603,70 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="""Pikachu By @InfinityLK"""
+            text="""<b>About Pikachu</b>
+            
+<b><i>Loading</i></b>"""
+        )
+        await query.message.edit_text(
+            text="""<b>About Pikachu</b>
+            
+<b><i>Loading.</i></b>"""
+        )await query.message.edit_text(
+            text="""<b>About Pikachu</b>
+            
+<b><i>Loading..</i></b>"""
+        )
+        await query.message.edit_text(
+            text="""<b>About Pikachu</b>
+            
+<b><i>Loading...</i></b>"""
+        )
+        await query.message.edit_text(
+            text="""<b>About Pikachu</b>
+            
+<b><i>Loading....</i></b>"""
+        )
+        await query.message.edit_text(
+            text="""<b>About Pikachu</b>
+            
+<b><i>Loading..</i></b>"""
+        )
+        await query.message.edit_text(
+            text="""<b>About Pikachu</b>
+            
+<b><i>Loading...</i></b>"""
+        )
+        await query.message.edit_text(
+            text="""<b>About Pikachu</b>
+            
+<b><i>Opening..</i></b>"""
+        )
+        await query.message.edit_text(
+            text="""<b>About Pikachu</b>
+            
+<b><i>Opening...</i></b>"""
+        )
+        await query.message.edit_text(
+            text="""<b>About Pikachu</b>
+            
+<b><i>Opening...</i></b>"""
+        )
+        await query.message.edit_text(
+            text="""<b> (╯°□°)╯︵◓  ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
+        )
+        await query.message.edit_text(
+            text="""<b> (╯°□°)╯︵ ◓   ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
+        )
+        await query.message.edit_text(
+            text="""<b> (╯°□°)╯︵  ◓   ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
+        )
+        await query.message.edit_text(
+            text="""<b> (╯°□°)╯︵   ◓  ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
+        )
+        await query.message.edit_text(
+            text="""<b> (╯°□°)╯︵    ◓  ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
+        )await query.message.edit_text(
+            text="""<b> (∩ ͡° ͜ʖ ͡°)⊃━          ◓</b>"""
         )
         await query.message.edit_text(
             text="""█▀█
@@ -631,12 +694,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
 █── ▀ ▀─▀▀ ▀─▀ ─▀"""
         )
         await query.message.edit_text(
-            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █ █
+            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█
 █▄█ █ █▀▄─ █▀█ █─ █▀█
-█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀ ▀"""
+█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀"""
         )
         await query.message.edit_text(
             text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█ █   █
+█▄█ █ █▀▄─ █▀█ █─ █▀█ █   █
+█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀ ▀▀▀"""
+        )
+        await query.message.edit_text(
+            text="""
+█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█ █   █
 █▄█ █ █▀▄─ █▀█ █─ █▀█ █   █
 █── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀ ▀▀▀"""
         )
