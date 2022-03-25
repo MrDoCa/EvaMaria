@@ -28,7 +28,7 @@ async def start(client, message):
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_sticker(sticker="CAACAgUAAxkBAAIMvmIM7BVb9Jysuazt7s7WvczPXiBxAAIVAQACyJRkFGZEMKKnFWwTHgQ", reply_markup=reply_markup)
+        await message.reply(script.MERLIN_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
         await asyncio.sleep(2) # 😢 https://github.com/EvamariaTG/EvaMaria/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
@@ -44,7 +44,7 @@ async def start(client, message):
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_video(
-            video="https://telegra.ph/file/fc3b31cdbfbe9fcf16cd9.mp4",
+            video="https://telegra.ph/file/d67b0c3a4838f2a7fcc4d.mp4",
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             quote=True,
@@ -85,7 +85,7 @@ async def start(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_video(
             text=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
-            video="https://telegra.ph/file/fc3b31cdbfbe9fcf16cd9.mp4",
+            video="https://telegra.ph/file/d67b0c3a4838f2a7fcc4d.mp4",
             reply_markup=reply_markup
         ) 
         return
