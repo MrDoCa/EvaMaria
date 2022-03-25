@@ -666,7 +666,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text="""<b> (╯°□°)╯︵    ◓  ϞϞ(๑⚈ ․̫ ⚈๑)∩</b>"""
-        )await query.message.edit_text(
+        )
+        await query.message.edit_text(
             text="""<b> (∩ ͡° ͜ʖ ͡°)⊃━          ◓</b>"""
         )
         await query.message.edit_text(
@@ -705,8 +706,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 █── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀ ▀▀▀"""
         )
         await query.message.edit_text(
-            text="""
-█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█ █   █
+            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █─█ █   █
 █▄█ █ █▀▄─ █▀█ █─ █▀█ █   █
 █── ▀ ▀─▀▀ ▀─▀ ─▀ ▀─▀ ▀▀▀"""
         )
