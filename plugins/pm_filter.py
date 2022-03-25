@@ -543,19 +543,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "about":
+    elif query.data == "pikachu":
         buttons = [[
-            InlineKeyboardButton('🔰𝙎𝙩𝙖𝙩𝙨', callback_data='stats'),
-            InlineKeyboardButton('𝙃𝙚𝙡𝙥', callback_data='help')
+            InlineKeyboardButton('➕ 𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝙃𝙤𝙢𝙚', callback_data='start'),
-            InlineKeyboardButton('𝘾𝙡𝙤𝙨𝙚', callback_data='close_data')
+            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="""/\︿╱\
-\0_ 0 /╱\╱ 
-\▁︹_/ """
+            text="""Pikachu By @InfinityLK"""
         )
         await query.message.edit_text(
             text="""█▀█
@@ -576,6 +573,50 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="""█▀█ ▀ █─▄▀ ▄▀▄
 █▄█ █ █▀▄─ █▀█
 █── ▀ ▀─▀▀ ▀─▀"""
+        )
+        await query.message.edit_text(
+            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀
+█▄█ █ █▀▄─ █▀█ █
+█── ▀ ▀─▀▀ ▀─▀ ─▀"""
+        )
+        await query.message.edit_text(
+            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █ █
+█▄█ █ █▀▄─ █▀█ █─ █▀█
+█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀ ▀"""
+        )
+        await query.message.edit_text(
+            text="""█▀█ ▀ █─▄▀ ▄▀▄ ▄▀ █ █ █─█
+█▄█ █ █▀▄─ █▀█ █─ █▀█ █─█
+█── ▀ ▀─▀▀ ▀─▀ ─▀ ▀ ▀  ▀"""
+        )
+        await query.message.edit_text(
+            text=script.PIKACHU_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+        elif query.data == "about":
+        buttons = [[
+            InlineKeyboardButton('🔰𝙎𝙩𝙖𝙩𝙨', callback_data='stats'),
+            InlineKeyboardButton('𝙃𝙚𝙡𝙥', callback_data='help')
+            ],[
+            InlineKeyboardButton('𝙃𝙤𝙢𝙚', callback_data='start'),
+            InlineKeyboardButton('𝘾𝙡𝙤𝙨𝙚', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
