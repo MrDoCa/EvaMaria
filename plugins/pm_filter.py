@@ -527,7 +527,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('සින්හලෙන්', callback_data='sinhala'),
-            InlineKeyboardButton('Back', callback_data='pikachu')
+            InlineKeyboardButton('Back', callback_data='more')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -838,6 +838,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.SINHALA_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "settingstext":
+        buttons = [[
+            InlineKeyboardButton('« 𝘽𝙖𝙘𝙠', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SETTINGSTEXT_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
