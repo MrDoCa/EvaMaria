@@ -99,6 +99,10 @@ This module only works for my admins
     PIKACHU_TXT = """i choose youuuu !"""
     PIKACHUINFO_TXT = """PIKACHUINFO !"""
     MORE_TXT = """MORE !"""
+    SETTINGSTEXT_TXT = """This is settings !"""
+    SINHALA_TXT = """sinhalen pago"""
+    NOTGROUP_TXT = """no groups for help?"""
+    PIKACHUINFO_TXT = """this is pikachu info"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
