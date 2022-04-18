@@ -103,8 +103,11 @@ This module only works for my admins
     SINHALA_TXT = """sinhalen pago"""
     NOTGROUP_TXT = """no groups for help?"""
     PIKACHUINFO_TXT = """this is pikachu info"""
-    MERLINREPLY_TXT = """still dreaming hah!"""
-    MERLIN_TXT = """wann adownload merlin S06"""
+    MERLINREPLY_TXT = """BRAH!
+Do you still have hopes ?. Forget it now. This is not something that will ever happen 😢"""
+    MERLIN_TXT = """MERLIN SEASON 06 IS NOW AVAILABLE ON STREAMING SITES !
+
+You Can Download Merlin S06 From Below Link.DOWNLOAD FAST"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
