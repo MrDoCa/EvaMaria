@@ -40,7 +40,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🤖 PIKAPI', callback_data='pikachu')
+            InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_video(
@@ -79,8 +79,6 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🤖 PIKAPI', callback_data='pikachu')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_video(
