@@ -425,7 +425,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('𝙈𝙤𝙫𝙞𝙚 𝙂𝙧𝙤𝙪𝙥', url=f'https://t.me/TamilMV_Collections')
+                InlineKeyboardButton('Main Channel', url=f'https://t.me/infinitylk')
             ]
             ]
             
@@ -475,7 +475,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/TamilMV_Collections')
+                InlineKeyboardButton('Main Channel', url=f'https://t.me/infinitylk')
             ]
             ]
         await query.answer()
@@ -549,10 +549,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "pikachu":
         buttons = [[
-            InlineKeyboardButton('About Pikachu', callback_data='infopikachu')
-            ],[
-            InlineKeyboardButton('ℹ️ More', callback_data='more')
-        ]]
+            InlineKeyboardButton('Add Me To Your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text="""Pikachu By @InfinityLK"""
